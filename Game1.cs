@@ -12,7 +12,7 @@ namespace MonoGame2___Assignment
         Texture2D triangleTexture;
 
         Rectangle yellowTriangle;
-        Rectangle blackTriangle;
+        Rectangle purpleTriangle;
 
         public Game1()
         {
@@ -53,7 +53,7 @@ namespace MonoGame2___Assignment
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.LightSlateGray);
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
