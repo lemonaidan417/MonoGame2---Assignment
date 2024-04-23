@@ -24,7 +24,7 @@ namespace MonoGame2___Assignment
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            _graphics.PreferredBackBufferWidth = 800; // Sets the width of the window
+            _graphics.PreferredBackBufferWidth = 697; // Sets the width of the window
             _graphics.PreferredBackBufferHeight = 800; // Sets the height of the window
             _graphics.ApplyChanges(); // Applies the new dimensions
 
@@ -66,19 +66,19 @@ namespace MonoGame2___Assignment
             } // Big Triforce
 
             {
-                _spriteBatch.Draw(triangleTexture, new Rectangle(169, 286, 180, 180), Color.Black);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(257, 116, 180, 180), Color.Black);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(343, 286, 180, 180), Color.Black);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(169, 286, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(257, 116, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(343, 286, 180, 180), Color.DarkMagenta);
             } // Mini Triforce (Middle)
             {
-                _spriteBatch.Draw(triangleTexture, new Rectangle(169, 448, 180, 180), Color.Red);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(257, 110, 180, 180), Color.Green);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(343, 448, 180, 180), Color.Blue);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(431, 455, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(518, 624, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(344, 624, 180, 180), Color.DarkMagenta);
             } // Mini Triforce (Left)
             {
-                _spriteBatch.Draw(triangleTexture, new Rectangle(-7, 630, 180, 180), Color.Pink);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(165, 630, 180, 180), Color.Purple);
-                _spriteBatch.Draw(triangleTexture, new Rectangle(343, 448, 180, 180), Color.Magenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(-4, 624, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(170, 624, 180, 180), Color.DarkMagenta);
+                _spriteBatch.Draw(triangleTexture, new Rectangle(83, 455, 180, 180), Color.DarkMagenta);
             } // Mini Triforce (Right)
 
 
